@@ -24,8 +24,19 @@ user can delete unwanted ".desktop" files.
 make-runner: generate a script which invokes an executable as a "runner"
 that can run other files.
 
+run-as-script: run the file as if it was an executable script. This
+allows users to run a script on systems where the normal available
+actions only include opening the file in a text editor.
+
 edit-as-text: open the file as a text file in GEdit or any other text
 editor. This gets around the tedious process of shuffling system
 defaults around just to edit a script.
+
+edit-with-eureka: open a WAD file with Eureka map editor. This gets
+around an issue where opening a WAD file in Eureka using the normal
+context menu causes Eureka to become the default runner for WAD files.
+
+extract-with-deutex: extract and convert all the assets from a WAD into
+the current directory. Useful for examining the contents of a WAD file.
 
 ======----====----====----====----====----====----====----====----======
