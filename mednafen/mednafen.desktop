@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Mednafen
+Comment=Multi-system Emulator
+Exec=mednafen
+Icon=mednafen
+Terminal=false
+Type=Application
+Categories=Game
+Keywords=mednafen;Mednafen;Emulator;
+MimeType=application/x-atari-lynx-rom;application/x-genesis-rom

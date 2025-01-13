@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="application/x-atari800-program">
+    <comment>Atari 400/800/XL/XE program</comment>
+    <generic-icon name="application-x-executable"/>
+    <glob pattern="*.atr"/>
+    <glob pattern="*.cas"/>
+    <glob pattern="*.xex"/>
+  </mime-type>
+  <mime-type type="application/x-atari800-rom">
+    <comment>Atari 400/800/XL/XE CART file</comment>
+    <generic-icon name="application-x-executable"/>
+    <magic priority="50">
+      <match type="string" offset="0" value="CART"/>
+    </magic>
+    <glob pattern="*.car"/>
+  </mime-type>
+</mime-info>
