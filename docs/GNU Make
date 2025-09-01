@@ -1,0 +1,16 @@
+GNU Makefiles
+=============
+
+Makefiles for GNU Make are fairly standardized and have some common purposes. Duly a desktop environment can detect the presence of a Makefile and present a standardized list of options.
+
+__Run Make:__ Running the "make" command on the current directory will execute the default Make rule in the Makefile. Typically this results in building the associated software from source and making it ready to run. Any resulting binary files can be double-clicked as well
+
+Problems can crop up if the resulting build is designed to be run in-place from a "current working directory". The program might use paths relative to the root of the build, in which case running it from the GUI file browser will fail.
+
+Makefile build systems often have dependencies which must be pre-installed before the build can succeed. This was already a problem on the command line, and is moreso in a desktop environment. The DE could display dependency errors and expect the user to fix them, but this is unideal. A good Readme file should inform the user how to prepare the build environment first, hopefully with user-friendly steps.
+
+__make install:__ If the DE detects an "install" rule in the Makefile and allows the user to select this option, ideally the Makefile should deploy the build in non-administrative space. The "~/.local" directory is provided for this purpose, and by convention should be used as the root for install endpoints such as "bin", "lib", "share", etc.. The Freedesktop specification picks up on these locations for executable, script, and config files.
+
+Malicious Makefiles are very possible. It can be argued that making the execution of the "install" rule easier in a desktop environment also invites careless users to risk malicious actions. This was always possible with Makefiles on the command line, and arguably just as easy. Perhaps this is a good time to start sandboxing Make operations by default.
+
+__make clean:__ The "clean" rules is designed to delete build files and return a build tree to its original state. Modifications to source code are kept. This is a good way to prepare a build folder for transportation to another operating system, or for publication.
