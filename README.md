@@ -2,7 +2,21 @@
 
 Integrated, user-friendly technology for graphical desktop environments.
 
-## Concept
+Regular tasks should:
+
+* ✓ Integrate with core desktop applications
+* ✓ Require as few clicks and mouse movements as possible
+* ✓ Require as few keystrokes as possible, if any at all
+* ✗ Not require specialized software suites
+
+
+### Do not require specialized software suites
+
+- Integrated development environments (IDE)
+- Media library applications
+- Interfaces with command line
+
+### Concept
 
 Scripts should be cross-platform and extremely simple. Where possible
 take only filenames as command-line arguments so the script can
