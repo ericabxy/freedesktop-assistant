@@ -1,0 +1,25 @@
+Filenames
+=========
+
+Modern desktop environments have obsoleted the need for filename extensions.
+
+
+- No limitation on filename length
+- Spaces and many other special characters permissible
+- No longer a need for filename extensions
+
+For instance, the "exe" extension is no longer necessary because the OS knows whether a file in executable. The executability of a file is visually indicated to the user in file browsers and terminal emulators.
+
+What is a File Name?
+--------------------
+
+The ultimate purpose of a filename is *organization*.
+
+### Extensions
+
+Filename extensions can still be useful for filing purposes. They no longer necessarily have a special meaning, and can
+
+- No longer necessarily have a machine-readable meaning
+- No longer have a length limitation and can be stacked
+- Good human-readable visual indicator of a file's purpose
+
