@@ -1,0 +1,14 @@
+Git
+===
+
+Git is a complicated software suite with many commands, but there are a few that could be considered desktop friendly and even desirable for the distribution of software.
+
+__git clone:__ To obtain a Git repository from a remote, or even local, location is a basic and automatic Git feature. Providing the option could be tricky. Perhaps detect whether a Git URL is in the clipboard, and present the option to clone it via a context menu.
+
+__git pull:__ An existing Git repository is easy to detect and is designed for periodic updates. "Pulling" can result in merge conflicts, so the DE should issue a non-interactive variant of the command. There are at least two possibilities. 1. The user wishes to keep any local changes to the repo in order to merge or roll back to them. 2. The user wishes to delete any local changes and begin working from a recent upstream commit.
+
+__git add:__ Individual or multiple files to stage for commit.
+
+__git commit:__ This should prepare the commit with a blank or default commit message. Optionally allow the user to edit the commit message (where is it stored? could it be easily accessed via the file browser and changed via a text editor?).
+
+__git push:__ Pushing must be non-interactive, so authentication should be configurable beforehand. Optionally present an authentication dialog.
