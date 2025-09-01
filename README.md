@@ -1,5 +1,6 @@
 # Freedesktop Assistant
-helper scripts to make a computer desktop environment more friendly
+
+Integrated, user-friendly technology for graphical desktop environments.
 
 ## Concept
 
