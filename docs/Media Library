@@ -1,3 +1,8 @@
 Media Library
 =============
 
+Modern desktop environments show basic metadata contained in media files.
+
+A common approach to music library management is to dump all music files in a flat "~/Music" directory and allow a media player frontend to sort everything out via metadata. A major limitation to this is poor metadata management. Certain files may have misnamed title, artist, or album information. The desktop should allow the user to individually correct this information.
+
+Another common approach is to name music files appropriately and orginize them into a folder structure. This approach can coexist with the flat approach.
